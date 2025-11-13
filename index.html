@@ -1,34 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Italo Coppolella</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Italo Coppolella</h1>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about-me/about-me.html">Formazione</a></li>
-          <li><a href="./projects/projects.html">Esperienze</a></li>
-          <li><a href="./pages/contact.html">Canali Social</a></li>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italo Coppolella - Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <h2>Italo Coppolella</h2>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Chi Sono</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contatti</a></li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-          veritatis doloribus dolores animi minima, sequi accusamus perferendis
-          maiores nemo maxime magnam ipsum aliquid quis natus qui quidem harum
-          voluptatibus eius?
-        </p>
-      </section>
-    </main>
+    </nav>
 
-    <footer>Sviluppato da Italo Coppolella. Tutti i diritti riservati</footer>
-  </body>
+    <section id="home">
+        <h1>Italo Coppolella</h1>
+        <p>Sviluppatore & Laureando in Informatica</p>
+        <div>
+            <a href="#contact">Contattami</a>
+            <a href="#cv">Vedi CV</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Chi Sono</h2>
+        
+        <p>
+            Sono un <strong>Perito Informatico</strong> e Laureando in Informatica, da sempre appassionato di tecnologia e innovazione, con 
+            esperienza nello sviluppo.
+            Il mio percorso professionale mi ha permesso di acquisire competenze approfondite in 
+            diverse tecnologie e metodologie di sviluppo.
+        </p>
+        
+        <div>
+            <div>
+                <h3>Innovazione</h3>
+                <p>Ricerca costante di soluzioni innovative</p>
+            </div>
+            
+            <div>
+                <h3>Collaborazione</h3>
+                <p>Lavoro di squadra e condivisione della conoscenza</p>
+            </div>
+            
+            <div>
+                <h3>Qualità</h3>
+                <p>Attenzione ai dettagli e standard elevati</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv">
+        <h2>Curriculum Vitae</h2>
+        
+        <!-- Formazione -->
+        <div>
+            <h3>Formazione</h3>
+            
+            <div>
+                <h4>Laurea Triennale in Informatica</h4>
+                <p>Università Telematica Pegaso | 2023 - 2026</p>
+                <p>Fondamenti di programmazione e sistemi informatici</p>
+            </div>
+
+            <div>
+                <h4>Diploma Perito Informatico</h4>
+                <p>Istituto Tecnico Industriale A.Pacinotti | 2013 - 2018</p>
+                <p>Specializzazione in sviluppo software e architetture distribuite</p>
+            </div>
+            
+        </div>
+        
+        <!-- Esperienza -->
+        <div>
+            <h3>Esperienze Lavorative</h3>
+            
+            <div>
+                <h4>Junior Developer</h4>
+                <p>Enviro S.R.L. | Settembre 2025</p>
+                <ul>
+                    <li>Realizzazione di un sito web con Python (back-end) e HTML, CSS, JavaScript (front-end).</li>
+                    <li>Integrazione e test delle funzionalità in team.</li>
+                    <li>Sviluppo del codice con supporto Cursor (AI-assisted).</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4>Junior Full Stack Developer | Tirocinio</h4>
+                <p>G&F Software S.R.L | Settembre 2024 – Marzo 2025</p>
+                <ul>
+                  <li>Sviluppo di funzionalità React (front-end) e Java (back-end),
+                    integrando classi centralizzate preesistenti e microservizi</li>
+                  <li>Debugging, manutenzione del codice e ottimizzazione delle
+                    funzionalità assegnate.</li>
+                  <li>Uso di DBeaver per gestione e interrogazione di database</li>
+                  <li>Versionamento del codice con GIT</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4>Servizio Civile</h4>
+                <p>Parco Naturale Monti Ausoni e Lago di Fondi | 2021 – 2022</p>
+                <ul>
+                  <li>Attività di front-office con contatto diretto con il pubblico</li>
+                  <li>Supporto e assistenza tecnica PC e smartphone</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contatti -->
+    <section id="contact">
+        <h2>Contattami</h2>
+        
+        <p>
+            Sono sempre interessato a nuove opportunità e collaborazioni. 
+            Non esitare a contattarmi!
+        </p>
+        
+        <div>
+            
+            <div>
+                <h3>LinkedIn</h3>
+                <a href="www.linkedin.com/in/italocoppolella-python" target="_blank">linkedin.com/in/italococoppolella</a>
+            </div>
+            
+            <div>
+                <h3>GitHub</h3>
+                <a href="https://github.com/ItaloCoppolella/" target="_blank">github.com/ItaloCoppolella/</a>
+            </div>
+            
+            <div>
+                <h3>Località</h3>
+                <p>Roma - Fondi</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Sviluppato da Italo Coppolella. Tutti i diritti riservati.</p>
+    </footer>
+</body>
 </html>
